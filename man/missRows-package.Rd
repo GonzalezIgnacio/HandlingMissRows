@@ -35,13 +35,13 @@ missing values.
 }
 
 \author{
-Ignacio González and Valentin Voillet
+Ignacio Gonz?lez and Valentin Voillet
 
-Maintainer: Ignacio González <ignacio.gonzalez@somewhere.net>
+Maintainer: Ignacio Gonz?lez <ignacio.gonzalez@somewhere.net>
 }
 
 \references{
-Voillet V., Besse P., Liaubet L., San Cristobal M., González I. (2016).
+Voillet V., Besse P., Liaubet L., San Cristobal M., Gonz?lez I. (2016).
 Handling missing rows in multi-omics data integration:
 Multiple Imputation in Multiple Factor Analysis framework.
 \emph{BMC Bioinformatics}, 17(40).
