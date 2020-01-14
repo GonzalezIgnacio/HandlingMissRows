@@ -1,7 +1,7 @@
 Package: missRows
 Type: Package
 Title: Handling Missing Individuals in Multi-Omics Data Integration
-Version: 0.99.7
+Version: 0.99.8
 Date: 2018-03-19
 Author: Ignacio Gonzalez and Valentin Voillet
 Maintainer: Gonzalez Ignacio <ignacio.gonzalez@bbox.fr>
