@@ -28,8 +28,6 @@ Data Integration}}}}
 
 \author{Valentin Voillet and Ignacio Gonz\'alez}
 
-% \date{2018}
-
 \begin{document}
 
 \maketitle
@@ -52,10 +50,8 @@ values. This vignette explains the use of the package and demonstrates
 typical workflows.
 \end{abstract}
 
-%\newpage
 \tableofcontents
 
-%\newpage
 %============================================================================
 \section{Introduction}
 %============================================================================
@@ -117,7 +113,7 @@ The vignette also includes description of the methods behind the package.
 \begingroup
 \centering
 
-\includegraphics[scale=0.9]{fig_overview_MIMFA.pdf}
+\includegraphics{fig_overview_MIMFA.pdf}
 
 \caption{\textbf{Overview of the MI-MFA approach to handling missing rows in 
 multi-omics data integration.} The top part of the graphic indicates that 
@@ -401,7 +397,7 @@ midt <- MIDTList(NCI60$mae)
 @
 
 A summary of the \Rcode{midt} object can be seen by typing the object name 
-at the \R{} prompt \medskip
+at the \R{} prompt
 
 <<>>=
 midt
@@ -460,9 +456,6 @@ imputed datasets. In order to get the \Rcode{M}th configuration, use the
 conf <- configurations(midt, M=5)
 dim(conf)
 @
-
-The list of ... can be exported by the function 
-\Rcode{function} \medskip
 
 
 \subsection{Data exploration and visualization}
