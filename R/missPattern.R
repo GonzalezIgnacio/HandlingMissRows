@@ -120,7 +120,7 @@ missPattern <- function(object, colStrata=NULL, colMissing="grey70",
     df$Table <- factor(df$Table, levels=nmTables)
     df.m$Table <- factor(df.m$Table, levels=nmTables)
     
-    ind.cols <- c(colStrata, "transparent", colMissing)
+    ind.cols <- c(colStrata, "white", colMissing)
     names(ind.cols)[length(colStrata) + seq_len(2)] <- c("", missLab)
     
     g <- ggplot() + theme_bw() + facet_wrap(~ Table) +
